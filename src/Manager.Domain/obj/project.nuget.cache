@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bsY7s2ohCSBHO5LiPAxX7Hg+CoCP+v0rPwvmWgtXz28LIg+2qhALXMqLdmmokHvjAEj8EvtvYOJRwkq93QVxjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

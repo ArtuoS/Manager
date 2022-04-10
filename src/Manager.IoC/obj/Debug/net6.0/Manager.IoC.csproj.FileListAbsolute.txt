@@ -1,0 +1,12 @@
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.csproj.AssemblyReference.cache
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.AssemblyInfoInputs.cache
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.AssemblyInfo.cs
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.csproj.CoreCompileInputs.cache
+D:\Pessoal\Manager\src\Manager.IoC\bin\Debug\net6.0\Manager.IoC.deps.json
+D:\Pessoal\Manager\src\Manager.IoC\bin\Debug\net6.0\Manager.IoC.dll
+D:\Pessoal\Manager\src\Manager.IoC\bin\Debug\net6.0\ref\Manager.IoC.dll
+D:\Pessoal\Manager\src\Manager.IoC\bin\Debug\net6.0\Manager.IoC.pdb
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.dll
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\ref\Manager.IoC.dll
+D:\Pessoal\Manager\src\Manager.IoC\obj\Debug\net6.0\Manager.IoC.pdb

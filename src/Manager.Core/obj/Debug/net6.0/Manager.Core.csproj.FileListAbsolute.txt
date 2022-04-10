@@ -10,3 +10,15 @@ C:\Users\arthu\source\repos\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Co
 C:\Users\arthu\source\repos\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.dll
 C:\Users\arthu\source\repos\Manager\src\Manager.Core\obj\Debug\net6.0\ref\Manager.Core.dll
 C:\Users\arthu\source\repos\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.pdb
+D:\Pessoal\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.deps.json
+D:\Pessoal\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.dll
+D:\Pessoal\Manager\src\Manager.Core\bin\Debug\net6.0\ref\Manager.Core.dll
+D:\Pessoal\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.pdb
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.csproj.AssemblyReference.cache
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfoInputs.cache
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfo.cs
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.csproj.CoreCompileInputs.cache
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.dll
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\ref\Manager.Core.dll
+D:\Pessoal\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.pdb

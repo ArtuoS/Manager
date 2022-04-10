@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.API\\Manager.API.csproj": {}
+    "D:\\Pessoal\\Manager\\src\\Manager.API\\Manager.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.API\\Manager.API.csproj": {
+    "D:\\Pessoal\\Manager\\src\\Manager.API\\Manager.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.API\\Manager.API.csproj",
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.API\\Manager.API.csproj",
         "projectName": "Manager.API",
-        "projectPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.API\\Manager.API.csproj",
-        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.API\\obj\\",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.API\\Manager.API.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,12 +22,29 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.IoC\\Manager.IoC.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.IoC\\Manager.IoC.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.Services\\Manager.Services.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Services\\Manager.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,7 +80,334 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectName": "Manager.Core",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+        "projectName": "Manager.Domain",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "fluentvalidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
+        "projectName": "Manager.Infra",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal\\Manager\\src\\Manager.IoC\\Manager.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.IoC\\Manager.IoC.csproj",
+        "projectName": "Manager.IoC",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.IoC\\Manager.IoC.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pessoal\\Manager\\src\\Manager.Services\\Manager.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
+        "projectName": "Manager.Services",
+        "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
+        "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+        "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://desenv.benner.com.br/packages/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
+              },
+              "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
+                "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "automapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

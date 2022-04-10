@@ -1,6 +1,14 @@
+using Manager.Infra.Interfaces;
+using Manager.Infra.Repositories;
+using Manager.Services.Interfaces;
+using Manager.Services.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

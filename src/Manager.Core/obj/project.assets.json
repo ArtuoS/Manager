@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\arthu\\.nuget\\packages\\": {}
+    "C:\\Users\\arthur.molinari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+      "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
       "projectName": "Manager.Core",
-      "projectPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
-      "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Core\\obj\\",
+      "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+      "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+      "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://desenv.benner.com.br/packages/nuget": {}
       },
       "frameworks": {
         "net6.0": {
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

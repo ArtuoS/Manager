@@ -11,6 +11,7 @@ namespace Manager.Domain.Entities
             Password = password;
 
             _errors = new List<string>();
+            Validate();
         }
 
 

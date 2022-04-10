@@ -58,19 +58,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arthu\\.nuget\\packages\\": {}
+    "C:\\Users\\arthur.molinari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+      "projectUniqueName": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
       "projectName": "Manager.Domain",
-      "projectPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
-      "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Domain\\obj\\",
+      "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+      "packagesPath": "C:\\Users\\arthur.molinari\\.nuget\\packages\\",
+      "outputPath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arthur.molinari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -78,14 +78,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://desenv.benner.com.br/packages/nuget": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
-              "projectPath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
+            "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+              "projectPath": "D:\\Pessoal\\Manager\\src\\Manager.Core\\Manager.Core.csproj"
             }
           }
         }
@@ -120,7 +121,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

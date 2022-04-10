@@ -25,5 +25,29 @@ namespace Manager.Core.Extensions
                 return false;
             }
         }
+
+        public static long ToLong(this long value)
+        {
+            try
+            {
+                return Convert.ToInt64(value);
+            }
+            catch
+            {
+                return Globals.InvalidId;
+            }
+        }
+
+        public static long ToLong(this long? value)
+        {
+            try
+            {
+                return Convert.ToInt64(value);
+            }
+            catch
+            {
+                return Globals.InvalidId;
+            }
+        }
     }
 }

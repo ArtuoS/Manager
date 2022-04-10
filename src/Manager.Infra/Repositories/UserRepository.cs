@@ -40,5 +40,11 @@ namespace Manager.Infra.Repositories
 
             return users;
         }
+
+        public async Task<bool> ExistsByEmail(string email)
+            => await _context.Users.AnyAsync(x => x.Email.Equals(email));
+
+        public async Task<bool> ExistsById(long id)
+            => await _context.Users.AnyAsync(x => x.Id.Equals(id));
     }
 }

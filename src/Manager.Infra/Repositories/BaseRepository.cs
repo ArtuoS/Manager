@@ -1,5 +1,4 @@
-﻿using Manager.Core.Extensions;
-using Manager.Domain.Entities;
+﻿using Manager.Domain.Entities;
 using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +14,7 @@ namespace Manager.Infra.Repositories
             _context = context;
         }
 
-        public async virtual Task<T> CreateAsync(T baseObject)
+        public virtual async Task<T> CreateAsync(T baseObject)
         {
             _context.Add(baseObject);
             await _context.SaveChangesAsync();
@@ -23,7 +22,7 @@ namespace Manager.Infra.Repositories
             return baseObject;
         }
 
-        public async virtual Task<T> RemoveAsync(long id)
+        public virtual async Task<T> RemoveAsync(long id)
         {
             var obj = await GetAsync(id);
 
@@ -34,10 +33,9 @@ namespace Manager.Infra.Repositories
             }
 
             return obj;
-
         }
 
-        public async virtual Task<T> GetAsync(long id)
+        public virtual async Task<T> GetAsync(long id)
         {
             return await _context.Set<T>()
                          .AsNoTracking()
@@ -45,12 +43,12 @@ namespace Manager.Infra.Repositories
                          .FirstOrDefaultAsync();
         }
 
-        public async virtual Task<IEnumerable<T>> GetAsync()
+        public virtual async Task<IEnumerable<T>> GetAsync()
             => await _context.Set<T>()
                      .AsNoTracking()
                      .ToListAsync();
 
-        public async virtual Task<T> UpdateAsync(T baseObject)
+        public virtual async Task<T> UpdateAsync(T baseObject)
         {
             _context.Entry(baseObject).State = EntityState.Modified;
             await _context.SaveChangesAsync();

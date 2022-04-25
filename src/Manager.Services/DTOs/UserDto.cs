@@ -1,5 +1,3 @@
-using Manager.Core;
-
 namespace Manager.Services.DTOs
 {
     public class UserDto
@@ -15,10 +13,9 @@ namespace Manager.Services.DTOs
         public UserDto()
         { }
 
-        public long Id { get; set; } = Globals.InvalidId;
+        public long Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
     }
 }

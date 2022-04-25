@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Manager.API.ViewModels.User
+namespace Manager.Domain.ViewModels.User
 {
     public class CreateUserViewModel
     {
@@ -12,7 +12,7 @@ namespace Manager.API.ViewModels.User
         [Required(ErrorMessage = "O email não pode ser vázio.")]
         [MinLength(6, ErrorMessage = "O email deve ter no mínimo 3 caractéres.")]
         [MaxLength(180, ErrorMessage = "O email não pode ter mais de 80 caractéres.")]
-        [RegularExpression(@"/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i")]
+        [RegularExpression(@"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "A senha não pode ser vázio.")]

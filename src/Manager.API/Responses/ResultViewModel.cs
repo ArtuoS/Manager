@@ -1,4 +1,4 @@
-namespace Manager.API.ViewModels
+namespace Manager.API.Responses
 {
     public class ResultViewModel
     {

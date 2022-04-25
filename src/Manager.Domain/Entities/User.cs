@@ -14,9 +14,9 @@ namespace Manager.Domain.Entities
             Validate();
         }
 
-
         // This is the constructor for EFCore, the above constructor is for the model creation.
-        protected User() { }
+        protected User()
+        { }
 
         public string Name { get; private set; }
         public string Email { get; private set; }

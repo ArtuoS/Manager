@@ -32,7 +32,7 @@ namespace Manager.Domain.Validators
                 .WithMessage("O email deve ter no mínimo 6 caractéres.")
                 .MaximumLength(180)
                 .WithMessage("O email não pode ter mais de 180 caractéres.")
-                .Matches(@"/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i")
+                .Matches(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")
                 .WithMessage("Email inválido.");
 
             RuleFor(x => x.Password)

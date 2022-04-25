@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpW5mmviX0u3IFSkvDaNOxjsSbX2qxQffeY6fXGvLOXBEJDlVpIFs1BZzqMJ2m4TviBbWHmMtkX7Lkvk5E5USw==",
+  "dgSpecHash": "dvCPyPcqvNjvzxCh1JfpyoAGHhxXmgq66+m1lrT2XUkEi1lfmGThzU8+rSpnF2q5/qVl2f4Wi+h80wvuvIjd4Q==",
   "success": true,
-  "projectFilePath": "D:\\Pessoal\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\arthu\\source\\repos\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arthur.molinari\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+    "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.3\\microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.3\\microsoft.aspnetcore.authentication.openidconnect.6.0.3.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

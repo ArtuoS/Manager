@@ -1,10 +1,10 @@
+using AutoMapper;
+using Manager.Core.Exceptions;
+using Manager.Core.Extensions;
+using Manager.Domain.Entities;
+using Manager.Infra.Interfaces;
 using Manager.Services.DTOs;
 using Manager.Services.Interfaces;
-using AutoMapper;
-using Manager.Infra.Interfaces;
-using Manager.Core.Exceptions;
-using Manager.Domain.Entities;
-using Manager.Core.Extensions;
 
 namespace Manager.Services.Services
 {
@@ -21,7 +21,7 @@ namespace Manager.Services.Services
 
         public async Task<UserDto> CreateAsync(UserDto userDto)
         {
-            if(await _userRepository.ExistsByEmail(userDto.Email))
+            if (await _userRepository.ExistsByEmail(userDto.Email))
                 throw new DomainException("Já existe um usuário com este email.");
 
             var user = _mapper.Map<User>(userDto);
@@ -55,7 +55,7 @@ namespace Manager.Services.Services
 
         public async Task RemoveAsync(long id)
         {
-            if(await _userRepository.ExistsById(id))
+            if (!await _userRepository.ExistsById(id))
                 throw new DomainException("Usuário não existe.");
 
             await _userRepository.RemoveAsync(id);
@@ -77,7 +77,7 @@ namespace Manager.Services.Services
 
         public async Task<UserDto> UpdateAsync(UserDto userDto)
         {
-            if(await _userRepository.ExistsById(userDto.Id))
+            if (!await _userRepository.ExistsById(userDto.Id))
                 throw new DomainException("Usuário não existe.");
 
             var user = _mapper.Map<User>(userDto);
